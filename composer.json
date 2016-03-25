@@ -1,0 +1,21 @@
+{
+    "name": "eresults/bulletin-api-php",
+    "description": "Simple PHP client to talk to the Bulletin API",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Niels Janssen",
+            "email": "nielsjanssen@live.nl"
+        },
+        {
+            "name": "Martijn Gastkemper",
+            "email": "martijngastkemper@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Bulletin\\": "src/Bulletin"
+        }
+    }
+}
